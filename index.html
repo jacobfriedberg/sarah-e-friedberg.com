@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sarah Friedberg — Author</title>
+  <meta name="description" content="Official page for author Sarah Friedberg. Books: When Light Touches Sky, Maybe At Dawn, When We Were Briefly Strangers, Waiting for Dunno, The Girl Who Wished Through The Mirror."/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+    :root{
+      --maxw: 1100px;
+      --ink:#111;
+      --muted:#555;
+      --bg:#fafafa;
+      --card:#ffffff;
+    }
+    html,body{ height:100%; }
+    body{
+      margin:0;
+      font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      line-height:1.6;
+      color:var(--ink);
+      background:var(--bg);
+    }
+    a{ color:inherit; }
+    header{
+      max-width:var(--maxw);
+      margin:2.5rem auto 1rem;
+      padding:0 1.25rem;
+      display:grid;
+      grid-template-columns: 160px 1fr;
+      gap:1.5rem;
+      align-items:center;
+    }
+    .author-photo{
+      width:160px;
+      height:160px;
+      border-radius:50%;
+      object-fit:cover;
+      display:block;
+      border:1px solid #e5e5e5;
+      background:#eee;
+    }
+    .bio h1{
+      font-family:'Cormorant Garamond',serif;
+      font-size:2.25rem;
+      line-height:1.1;
+      margin:0 0 .5rem 0;
+    }
+    .bio p{ margin:0; color:#2a2a2a; font-size:1.05rem; }
+    main{ max-width:var(--maxw); margin:0 auto; padding:0 1.25rem 3rem; }
+    h2.section{
+      font-family:'Cormorant Garamond',serif;
+      font-size:1.9rem; text-align:center; margin:2.25rem 0 1.25rem;
+    }
+    .book-grid{
+      display:grid;
+      grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+      gap:1.5rem;
+    }
+    .book{
+      background:var(--card);
+      border:1px solid #eaeaea;
+      border-radius:12px;
+      padding:1rem;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      text-align:center;
+      box-shadow:0 1px 2px rgba(0,0,0,.03);
+    }
+    .book img{
+      width:100%;
+      aspect-ratio: 2 / 3;
+      object-fit:cover;
+      border-radius:8px;
+    }
+    .book .title{
+      font-family:'Cormorant Garamond',serif;
+      font-size:1.15rem;
+      margin:.75rem 0 .15rem;
+    }
+    .book .date{ color:var(--muted); font-size:.9rem; margin-bottom:.6rem; }
+    .cta{
+      display:inline-block; padding:.5rem 1rem; border-radius:8px;
+      background:#111; color:#fff; text-decoration:none; font-weight:500; font-size:.92rem;
+    }
+    footer{
+      text-align:center; color:var(--muted); font-size:.9rem; padding:1.5rem 0 2rem;
+    }
+    @media (max-width:700px){
+      header{ grid-template-columns: 1fr; text-align:center; }
+      .author-photo{ margin:0 auto; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="author-photo" src="Image 0.jpeg" alt="Headshot of author Sarah Friedberg" loading="lazy">
+    <div class="bio" aria-label="Author biography">
+      <h1>Sarah Friedberg</h1>
+      <p>
+        Sarah Friedberg is a student at the Portledge School in Locust Valley, NY. Her previous books include
+        <em>Maybe at Dawn</em>, <em>When Light Touches Sky</em>, <em>Waiting for Dunno</em>, and
+        <em>The Girl Who Wished Through A Mirror</em>. She studied creative writing at Dartmouth and acting
+        at Stagedoor Manor in Loch Sheldrake, NY. <em>When We Were Briefly Strangers</em> is her first collection of plays.
+      </p>
+    </div>
+  </header>
+
+  <main>
+    <h2 class="section">Published Works</h2>
+    <section class="book-grid" aria-label="Book covers and purchase links">
+      <article class="book">
+        <img src="Image 1.jpeg" alt="Cover of When Light Touches Sky by Sarah Friedberg" loading="lazy">
+        <div class="title">When Light Touches Sky</div>
+        <div class="date">February 2025</div>
+        <a class="cta" href="https://www.amazon.com/When-Light-Touches-Sarah-Friedberg-ebook/dp/B0DXRVT65B/" target="_blank" rel="noopener">Buy on Amazon</a>
+      </article>
+
+      <article class="book">
+        <img src="Image 2.jpeg" alt="Cover of Maybe At Dawn by Sarah Friedberg" loading="lazy">
+        <div class="title">Maybe At Dawn</div>
+        <div class="date">September 2025</div>
+        <a class="cta" href="https://www.amazon.com/MAYBE-AT-DAWN-Sarah-Friedberg-ebook/dp/B0FQ7S2HJC/" target="_blank" rel="noopener">Buy on Amazon</a>
+      </article>
+
+      <article class="book">
+        <img src="Image 3.jpeg" alt="Cover of When We Were Briefly Strangers: Three plays by Sarah Friedberg" loading="lazy">
+        <div class="title">When We Were Briefly Strangers</div>
+        <div class="date">October 2025</div>
+        <a class="cta" href="https://www.amazon.com/When-We-Were-Briefly-Strangers-ebook/dp/B0FVB93NN7/" target="_blank" rel="noopener">Buy on Amazon</a>
+      </article>
+
+      <article class="book">
+        <img src="Image 4.jpeg" alt="Cover of Waiting for Dunno by Sarah Friedberg" loading="lazy">
+        <div class="title">Waiting for Dunno</div>
+        <div class="date">February 2024</div>
+        <a class="cta" href="https://www.amazon.com/Waiting-Dunno-Sarah-Friedberg-ebook/dp/B0CVJLP9M7/" target="_blank" rel="noopener">Buy on Amazon</a>
+      </article>
+
+      <article class="book">
+        <img src="Image 5.jpeg" alt="Cover of The Girl Who Wished Through The Mirror by Sarah Friedberg" loading="lazy">
+        <div class="title">The Girl Who Wished Through The Mirror</div>
+        <div class="date">June 2023</div>
+        <a class="cta" href="https://www.amazon.com/Girl-Who-Wished-Through-Mirror-ebook/dp/B0C6N25T5K/" target="_blank" rel="noopener">Buy on Amazon</a>
+      </article>
+    </section>
+  </main>
+
+  <footer>&copy; 2025 Sarah Friedberg. All rights reserved.</footer>
+</body>
+</html>
